@@ -1,1 +1,163 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #696969;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  height: inherit;
+  background-color: #f8f8f8;
+}
+
+
+.status-bar {
+  width: 375px;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+.navbar {
+  position: relative;
+  height: 90px;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.back-icon {
+  padding-top: 55px;
+  padding-left: 10px;
+  float: left;
+}
+
+h1 {
+  float: left;
+  padding-top: 60px;
+  padding-left: 95px;
+  font-size: 18px;
+}
+
+.table-header {
+  position: relative;
+  height: 35px;
+  font-size: 14px;
+}
+
+.bus-line{
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+.arriving-at{
+  padding-left: 245px;
+  padding-right: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+
+.arrivals-table {
+  width: 100%;
+  overflow-y: scroll;
+  height: 503px;
+  margin: 0 auto;
+}
+
+ul {
+    float: left;
+    width: inherit;
+}
+
+li {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: inherit;
+  float: left;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px -2px #979797;
+}
+
+.line-direction {
+  background-color: #000000;
+  border: 1px solid #000000;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  width: 160px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.destination {
+  padding-top: 10px;
+  padding-left: 0px;
+  text-align: left;
+  font-size: 14px;
+  color: #666666;
+
+}
+
+.eta {
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.frequency {
+  padding-right: 10px;
+  padding-top: 12px;
+  font-size: 14px;
+  font-style: italic;
+  color: #8c8c8c;
+  text-align: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.line-direction-rerouted {
+  background-color: #FF9500;
+  border: 1px solid #FF9500;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  width: 160px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.line-direction-outofservice {
+  background-color: #FF3B30;
+  border: 1px solid #FF3B30;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  width: 160px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.tab-bar {
+width: 375px;
+}
